@@ -1,21 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title></title>
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-58922882-1', 'auto');
-  ga('send', 'pageview');
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-</script>
+    <title></title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
+
 <body>
-<h1>Christopher Collins</h1>
-<h3>Chemistry PhD Student at Carnegie Mellon University</h3>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <h1><a href="#">
+                        Chris Collins
+                    </a></h1>
+                </li>
+                <li>
+                    <h4>PhD Student</h4>
+                    <h4>Computational Chemistry</h4>
+                    <h4>Carnegie Mellon University</h4>
+                </li>
+
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Research</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">CV</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+
+
 Email: chris (AT) $USERNAME.com<br />
 Email: $USERNAME (AT) cmu.edu<br />
 <a href="https://github.com/crcollins/">Github</a><br />
@@ -27,60 +84,89 @@ Python, Computational Chemistry, Quantum, Machine Learning, UNIX, Parallel Compu
 <h2>Current Projects</h2>
 <h3>Research</h3>
 <ul>
-	<li>Optimizing INDO parameters using machine learning</li>
-		Stochastic Gradient Descent, Levenberg-Marquardt, Parallel and Distributed Computing
-	<li>Predicting optoelectronic properties of various polymeric systems using Deep Learning</li>
-	<li>Coupling affects in polymeric systems of thiophene and phenyl</li>
+    <li>Optimizing INDO parameters using machine learning</li>
+        Stochastic Gradient Descent, Levenberg-Marquardt, Parallel and Distributed Computing
+    <li>Predicting optoelectronic properties of various polymeric systems using Deep Learning</li>
+    <li>Coupling affects in polymeric systems of thiophene and phenyl</li>
 </ul>
 
 <h3>Programming</h3>
 <ul>
-	<li><a href="https://github.com/crcollins/chemtools-webapp">Chemtools</a></li>
-		A collection of various utilities to make computational chemistry easier in the form of a Django application
-		<br />
-		Includes:
-		<ul>
-			<li>Structure generator</li>
-			<li>Log file parser</li>
-			<li>Cluster job monitor</li>
-			<li>Molecular property predictor</li>
-		</ul>
-		<a href="http://gauss.crcollins.com/">Demo Site</a>
-		</p>
-	<li><a href="https://github.com/crcollins/torquecluster">TorqueCluster</a></li>
-		A virtual Torque Batch System cluster using Vagrant
-	<li><a href="https://github.com/crcollins/servers">Servers</a></li>
-		A collection of various virtual web service backends using Vagrant based on <a href="https://www.digitalocean.com/community/tutorials/5-common-server-setups-for-your-web-application">this DigitalOcean article</a>
+    <li><a href="https://github.com/crcollins/chemtools-webapp">Chemtools</a></li>
+        A collection of various utilities to make computational chemistry easier in the form of a Django application
+        <br />
+        Includes:
+        <ul>
+            <li>Structure generator</li>
+            <li>Log file parser</li>
+            <li>Cluster job monitor</li>
+            <li>Molecular property predictor</li>
+        </ul>
+        <a href="http://gauss.crcollins.com/">Demo Site</a>
+        </p>
+    <li><a href="https://github.com/crcollins/torquecluster">TorqueCluster</a></li>
+        A virtual Torque Batch System cluster using Vagrant
+    <li><a href="https://github.com/crcollins/servers">Servers</a></li>
+        A collection of various virtual web service backends using Vagrant based on <a href="https://www.digitalocean.com/community/tutorials/5-common-server-setups-for-your-web-application">this DigitalOcean article</a>
 </ul>
 
 
 <h2>Past Projects</h2>
 <h3>Research</h3>
 <ul>
-	<li>Optimizing optoelectronic properties of Benzobisazoles (substituents, ring types, chain lengths, push/pull systems)</li>
-	<li>Computational decomposition studies of Benzobisthiaphospholes</li>
-	<li>Using Machine Learning (Support Vector Machines) to predict optoelectronic properties of Benzobisazoles</li>
+    <li>Optimizing optoelectronic properties of Benzobisazoles (substituents, ring types, chain lengths, push/pull systems)</li>
+    <li>Computational decomposition studies of Benzobisthiaphospholes</li>
+    <li>Using Machine Learning (Support Vector Machines) to predict optoelectronic properties of Benzobisazoles</li>
 </ul>
 
 <h3>Programming</h3>
 <ul>
-	<li><a href="https://github.com/crcollins/pyOS">pyOS</a></li>
-		A high level reimplementation of a UNIX system using python
-	<li><a href="https://github.com/crcollins/hyperserv">Hyperserv</a></li>
-	<li><a href="https://github.com/crcollins/javascript-demos">Javascript Demos</a></li>
-		<a href="http://crcollins.github.io/javascript-demos/">Demo Site</a>
-	<li>Stock Market Simulator</li>
-	<li>RSA encryption/decryption using digital logic</li>
-	<li><a href="https://github.com/crcollins/scraper">University Course Scraper</a></li>
+    <li><a href="https://github.com/crcollins/pyOS">pyOS</a></li>
+        A high level reimplementation of a UNIX system using python
+    <li><a href="https://github.com/crcollins/hyperserv">Hyperserv</a></li>
+    <li><a href="https://github.com/crcollins/javascript-demos">Javascript Demos</a></li>
+        <a href="http://crcollins.github.io/javascript-demos/">Demo Site</a>
+    <li>Stock Market Simulator</li>
+    <li>RSA encryption/decryption using digital logic</li>
+    <li><a href="https://github.com/crcollins/scraper">University Course Scraper</a></li>
 </ul>
 
 
 <h2>Technologies</h2>
 <ul>
-	<li>Python, C, C++, Javascript, Bash, SQL, C CUDA, Go, HTML/CSS, TI-BASIC, Matlab/Octave, Maple, Java</li>
-	<li>Scipy, NumPy, Matplotlib, SciKit-Learn, Django, Paramiko, PyCrypto, PIL, Cairo, Selenium, pyTest, DisPy, PyBrain, jQuery, Bootstrap, SDL</li>
-	<li>Gaussian, Logisim, LabVIEW, Vagrant, Virtualbox, PostgreSQL, GIMP, Inkscape</li>
+    <li>Python, C, C++, Javascript, Bash, SQL, C CUDA, Go, HTML/CSS, TI-BASIC, Matlab/Octave, Maple, Java</li>
+    <li>Scipy, NumPy, Matplotlib, SciKit-Learn, Django, Paramiko, PyCrypto, PIL, Cairo, Selenium, pyTest, DisPy, PyBrain, jQuery, Bootstrap, SDL</li>
+    <li>Gaussian, Logisim, LabVIEW, Vagrant, Virtualbox, PostgreSQL, GIMP, Inkscape</li>
 </ul>
 
+
+
+
+
+                        <!-- <a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Toggle Menu</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
 </body>
+
 </html>

@@ -1,0 +1,13 @@
+.page-content-wrapper {
+    background-color: #fbfeff;
+}
+
+#sidebar-wrapper h1 {
+    color: white;
+    font-weight: bold;
+    opacity: 0.95;
+}
+#sidebar-wrapper h4 {
+    color: white;
+    opacity: 0.5;
+}
